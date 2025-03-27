@@ -1,6 +1,67 @@
-# Getting Started with Create React App
+# User Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern web application for managing user records with a clean and intuitive interface.
+
+## Features
+
+- View all users in an organized grid layout
+- Create new user profiles
+- View detailed user information in a resume format
+- Edit existing user information
+- Delete user records
+- Upload and manage user photos
+- Responsive design for all devices
+
+## How to Use
+
+### Viewing Users
+1. The home page displays all users in a card layout
+2. Each card shows:
+   - User's photo
+   - Basic information
+   - Quick action buttons (View, Edit, Delete)
+
+### Creating a New User
+1. Click "Add New User" in the top navigation bar
+2. Fill out the form with required information:
+   - Basic Information (name, date of birth, etc.)
+   - Contact Information (email, phone)
+   - Address Details
+   - Academic History
+   - Upload a photo
+3. Click "Create User" to save
+
+### Viewing User Details
+1. Click the "eye" icon on a user card, or
+2. Click anywhere on the user card
+3. View the comprehensive user profile in a resume format
+
+### Editing User Information
+1. Click the "pencil" icon on a user card
+2. Update the necessary fields
+3. Click "Update User" to save changes
+
+### Deleting a User
+1. Click the "trash" icon on a user card
+2. Confirm the deletion when prompted
+
+### Navigation
+- Use the "Back to Directory" button to return to the main list
+- Use the navigation bar to quickly access main features
+- Each page has intuitive navigation options
+
+## Tips
+- All required fields are marked with an asterisk (*)
+- Photos should be in standard image formats (JPG, PNG)
+- LinkedIn URL is optional but should be a valid URL if provided
+- Use the cancel button to discard changes and return to the previous page
+
+## Additional Notes
+- Changes are saved automatically when you submit forms
+- The system will show appropriate loading and error states
+- All actions have confirmation messages to prevent accidental changes
+
+For technical documentation and setup instructions, please refer to the Development section below.
 
 ## Available Scripts
 
